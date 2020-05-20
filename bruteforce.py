@@ -20,6 +20,6 @@ with open('secret.pdf', 'rb') as input_file:
         except:
                 pass
 if cracked:
-    print correct_password
+    print(correct_password)
 else:
-    print "Not cracked"                
+    print("Not cracked")
