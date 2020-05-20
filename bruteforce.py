@@ -17,7 +17,7 @@ with open('secret.pdf', 'rb') as input_file:
                 correct_password ='Correct password: %s' % password
                 cracked = True
                 break
-            except:
+        except:
                 pass
 if cracked:
     print correct_password
